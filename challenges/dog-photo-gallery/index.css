@@ -1,0 +1,49 @@
+body {
+  font-size: 2rem;
+  background-image: linear-gradient(
+    115deg,
+    hsl(240deg 69% 75%) 0%,
+    hsl(275deg 62% 73%) 17%,
+    hsl(310deg 65% 73%) 31%,
+    hsl(331deg 100% 78%) 43%,
+    hsl(345deg 100% 80%) 53%,
+    hsl(4deg 100% 81%) 63%,
+    hsl(21deg 100% 77%) 72%,
+    hsl(33deg 100% 75%) 81%,
+    hsl(43deg 100% 74%) 90%,
+    hsl(55deg 86% 74%) 100%
+  );
+}
+.main-container {
+  text-align: center;
+  width: 60%;
+  height: 95vh;
+  margin: auto;
+}
+.btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1em;
+  margin: 0.2em;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(24, 24, 97);
+  border: none;
+}
+.btn:hover {
+  padding: 1.2em;
+  background-color: rgb(34, 120, 178);
+}
+
+li {
+  margin: 0.2em;
+  list-style: none;
+}
+
+img {
+  width: 70%;
+  height: 70vh;
+  background-color: lightgray;
+  border-radius: 20px;
+}
